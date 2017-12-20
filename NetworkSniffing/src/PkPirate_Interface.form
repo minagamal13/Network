@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="SP_OUTPUT" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="709" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="TF_SelectInterface" alignment="0" min="-2" pref="77" max="-2" attributes="0"/>
+                          <Component id="B_CAPTURE" min="-2" pref="179" max="-2" attributes="0"/>
+                          <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="B_SELECT" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                              <Component id="B_LIST" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="170" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                              <Component id="B_FILTER" min="-2" max="-2" attributes="0"/>
+                              <Component id="RB_Port_Special" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="B_SAVE" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="TF_SpecialPort" min="-2" pref="81" max="-2" attributes="0"/>
+                                          <Group type="102" attributes="0">
+                                              <Component id="B_EXIT" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="95" max="-2" attributes="0"/>
+                                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace min="-2" pref="261" max="-2" attributes="0"/>
+                                      <Component id="L_FilterStatus" min="-2" pref="88" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Component id="B_LOAD" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="140" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                              <Component id="B_STOP" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="187" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="RB_Filter_Enable" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Component id="RB_Filter_Disable" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="jButton15" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="266" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="RB_Port_HTTP" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="RB_Port_SSL" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="RB_Port_FTP" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="RB_Port_SSH" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="RB_Port_Telnet" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="RB_Port_DNS" min="-2" max="-2" attributes="0"/>
+                                  <Component id="RB_Port_IMAPS" min="-2" max="-2" attributes="0"/>
+                                  <Component id="RB_Port_IMAP" min="-2" max="-2" attributes="0"/>
+                                  <Component id="RB_Port_POP3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="RB_Port_SMTP" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="RB_Port_SQL" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="RB_Port_NetBIOS" min="-2" max="-2" attributes="0"/>
+                                      <Component id="RB_Port_SAMBA" min="-2" max="-2" attributes="0"/>
+                                      <Component id="RB_Port_AD" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="24" pref="24" max="-2" attributes="0"/>
+                                  <Component id="RB_Port_LDAP" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="SP_OUTPUT" min="-2" pref="255" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="B_CAPTURE" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="L_FilterStatus" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jLabel2" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="B_STOP" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="TF_SelectInterface" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="B_SAVE" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="B_LOAD" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jButton15" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="B_EXIT" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="RB_Port_Special" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="TF_SpecialPort" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="B_FILTER" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="B_SELECT" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="B_LIST" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="RB_Port_HTTP" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="RB_Port_SMTP" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="RB_Port_NetBIOS" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="RB_Port_SSL" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="RB_Port_POP3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="RB_Filter_Disable" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="RB_Filter_Enable" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="RB_Port_SAMBA" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="RB_Port_FTP" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="RB_Port_IMAP" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="RB_Port_AD" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="RB_Port_SSH" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="RB_Port_IMAPS" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="RB_Port_SQL" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="RB_Port_Telnet" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="RB_Port_DNS" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="RB_Port_LDAP" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="350" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="B_CAPTURE">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CAPTURE"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="B_CAPTUREActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="B_STOP">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="STOP"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="B_STOPActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="B_SAVE">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="SAVE"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="B_SAVEActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="B_LOAD">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="LOAD"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="B_LOADActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="B_EXIT">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="EXIT"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="B_EXITActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="B_SELECT">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="SELECT"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="B_SELECTActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="B_LIST">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="LIST"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="B_LISTActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TF_SelectInterface">
+    </Component>
+    <Component class="javax.swing.JTextField" name="L_FilterStatus">
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton15">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DISABLED (ALL PORTS)"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton15ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="RB_Filter_Enable">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enable"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RB_Filter_EnableActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="RB_Filter_Disable">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Disable"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RB_Filter_DisableActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Special Port #"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TF_SpecialPort">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TF_SpecialPortActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="RB_Port_Special">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Special Port"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="B_FILTER">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="FILTER"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="B_FILTERActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Port Filter Presents "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="RB_Port_HTTP">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="HTTP (80)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="RB_Port_SSL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="HTTP SSL (443)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="RB_Port_FTP">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="FTP (20+21)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="RB_Port_SSH">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="SSH (22)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="RB_Port_Telnet">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Telnet (23)"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RB_Port_TelnetActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="RB_Port_SMTP">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="SMTP (25)"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RB_Port_SMTPActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="RB_Port_POP3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="POP 3 (110)"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RB_Port_POP3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="RB_Port_IMAP">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="IMAP (143)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="RB_Port_IMAPS">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="IMAPS (993)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="RB_Port_DNS">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DNS (53)"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RB_Port_DNSActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Interface"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="RB_Port_NetBIOS">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="NetBios (139)"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RB_Port_NetBIOSActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="RB_Port_SAMBA">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Samba (137)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="RB_Port_AD">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="AD (445)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="RB_Port_SQL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="SQL (118)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="RB_Port_LDAP">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="LDAP (389)"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RB_Port_LDAPActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="SP_OUTPUT">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="TA_OUTPUT">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
